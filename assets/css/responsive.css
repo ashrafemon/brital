@@ -1,3 +1,9 @@
+@media (min-width: 991px) {
+  .flag__item {
+    display: none !important;
+  }
+}
+
 @media (max-width: 1366px) {
   #benefits::after {
     max-width: 650px;
@@ -66,9 +72,14 @@
 
   .flag__item {
     position: absolute;
-    top: 10px;
-    left: 5px;
+    top: 15px;
+    left: 15px;
     display: inline-block !important;
+  }
+
+  .flag__img {
+    width: 30px !important;
+    height: 30px !important;
   }
 
   .flag_nav_item {
