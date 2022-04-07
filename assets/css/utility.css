@@ -1,0 +1,81 @@
+/*
+===================
+Font Classes Start
+===================
+*/
+.primary--font {
+  font-family: var(--title-font) !important;
+}
+.regular--font {
+  font-family: var(--regular-font) !important;
+}
+.subtitle--font {
+  font-family: var(--subtitle-font) !important;
+}
+/*
+===================
+Font Classes End
+===================
+*/
+
+/*
+===================
+Color Classes 
+===================
+*/
+.text__app--primary {
+  color: var(--primary-color);
+}
+.text__app--success {
+  color: var(--success-color);
+}
+
+.bg__app--primary {
+  background-color: var(--primary-color);
+}
+.bg__app--success {
+  background-color: var(--success-color);
+}
+/*
+===================
+Color Classes 
+===================
+*/
+
+/*
+===================
+Button Classes
+===================
+*/
+.action__btn {
+  min-width: 100px;
+  min-height: 45px;
+  background-color: var(--success-color);
+  color: var(--light-color);
+  border-radius: 32px;
+  font-size: var(--xs-text);
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-family: var(--regular-font);
+  transition: all 0.5s;
+}
+.action__btn:hover {
+  border: 1px solid var(--success-color);
+  background-color: var(--light-color);
+  color: var(--success-color);
+}
+
+.action__link__btn {
+  color: #000;
+  font-size: var(--sm-text);
+  transition: all 0.5s;
+}
+.action__link__btn:hover {
+  color: var(--success-color);
+}
+/*
+===================
+Button Classes
+===================
+*/

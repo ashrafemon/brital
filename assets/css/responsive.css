@@ -1,0 +1,277 @@
+@media (max-width: 1366px) {
+  #benefits::after {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #benefits::after {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  #benefits::after {
+    max-width: 600px;
+    height: 80px;
+    top: 80%;
+    transform: translateY(-80%);
+  }
+
+  .benefit__img {
+    width: 150px;
+    height: auto;
+    margin: 20px auto 0 !important;
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .benefit__row {
+    flex-direction: column;
+  }
+  .benefit__row .col-md-6 {
+    width: 100%;
+  }
+
+  .benefit__title {
+    max-width: initial;
+    font-weight: 600;
+    font-size: var(--md-text);
+  }
+
+  .benefit__nav {
+    gap: 10px;
+  }
+
+  .benefit__nav__item {
+    font-size: var(--xs-text);
+    font-weight: 600;
+  }
+
+  .benefit__img {
+    width: 150px;
+    height: auto;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar-brand {
+    margin: auto;
+  }
+
+  .flag__item {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    display: inline-block !important;
+  }
+
+  .flag_nav_item {
+    display: none;
+  }
+
+  /* Hero Section */
+  #hero {
+    padding-bottom: 5rem !important;
+    overflow: hidden;
+  }
+
+  .hero__title {
+    font-size: var(--xl-text);
+    margin-bottom: 0;
+  }
+
+  .hero__desc {
+    font-size: var(--xxxs-text);
+    font-weight: 600;
+    line-height: 1.4;
+    max-width: 60%;
+  }
+
+  .hero__img {
+    position: absolute;
+    bottom: -80px;
+    right: 20px;
+    width: 200px;
+    z-index: -99;
+  }
+  /* Hero Section */
+
+  /* Features Section */
+  #features {
+    min-height: initial;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .feature__item {
+    padding: 1rem 0;
+  }
+  .feature__item__title {
+    font-size: var(--xxxs-text);
+  }
+  .feature__item img {
+    width: 30px;
+    height: 30px;
+  }
+  /* Features Section */
+
+  /* Minder Section */
+  .minder__title {
+    font-size: var(--lg-text);
+  }
+  .minder__desc {
+    font-size: var(--xxs-text);
+  }
+  /* Minder Section */
+
+  /* Product Section */
+  .product__item__title {
+    font-size: var(--md-text);
+  }
+  .product__item__desc {
+    font-size: var(--xxs-text);
+  }
+  /* Product Section */
+
+  /* Benefit Section */
+  #benefits::after {
+    max-width: 350px;
+    top: 75%;
+    transform: translateY(-75%);
+  }
+  .benefit__title {
+    max-width: initial;
+    font-weight: 600;
+    font-size: var(--lg-text);
+  }
+
+  .benefit__nav {
+    gap: 10px;
+  }
+
+  .benefit__nav__item {
+    font-size: var(--xxs-text);
+    font-weight: 600;
+  }
+
+  .benefit__nav__item .iconify {
+    width: 20px;
+    height: 20px;
+  }
+
+  .benefit__img {
+    min-height: initial;
+    width: 70%;
+    height: auto;
+    margin: 20px auto 0;
+  }
+  /* Benefit Section */
+
+  /* Britals Section */
+  .briter__title {
+    font-size: var(--md-text);
+  }
+
+  .briter__item .card-title {
+    font-size: var(--md-text);
+  }
+
+  .briter__item .card-text {
+    font-size: var(--xs-text);
+  }
+
+  .briter__item .action__link__btn {
+    font-size: var(--xxs-text);
+    font-weight: 600;
+  }
+  /* Britals Section */
+
+  /* Zeggen Section */
+
+  #zeggenCarousel .owl-nav {
+    position: absolute;
+    top: -20px;
+    right: 0;
+  }
+
+  #zeggenCarousel .owl-nav button {
+    font-size: var(--xl-text);
+    color: #c9c9c9;
+    margin-right: 10px;
+  }
+
+  .zeggan__item {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .zeggan__item img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+  }
+
+  .zeggan__title {
+    font-size: var(--xxs-text);
+  }
+  .zeggan__desc {
+    font-size: var(--xxxs-text);
+  }
+  /* Zeggen Section */
+
+  /* Vragen Section */
+  .app__accordion .accordion-button {
+    font-size: var(--xs-text);
+  }
+  /* Vragen Section */
+
+  /* Footer */
+  .footer__logo {
+    margin: auto;
+    display: block;
+  }
+
+  .social__nav {
+    justify-content: center;
+  }
+
+  .social__btn {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+
+  .social__btn .iconify {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contact__text {
+    justify-content: center;
+    font-size: var(--xs-text);
+  }
+  .contact__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .contact__icon .iconify {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .copyright-text {
+    font-size: var(--xxxs-text);
+  }
+}

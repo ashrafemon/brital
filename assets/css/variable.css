@@ -1,0 +1,25 @@
+:root {
+  /* Font Sizes  */
+  --xxxl-text: 61px;
+  --xxl-text: 53px;
+  --xl-text: 35px;
+  --lg-text: 30px;
+  --md-text: 23px;
+  --sm-text: 20px;
+  --xs-text: 18px;
+  --xxs-text: 14px;
+  --xxxs-text: 12px;
+
+  /* Font Families */
+  --title-font: "Peace Sans";
+  --regular-font: "Quicksand";
+  --subtitle-font: "Brooklyn";
+
+  /* Colors */
+  --primary-color: #02abcd;
+  --primary-light-color: #e2faff;
+  --success-color: #19cd8d;
+  --light-color: #fff;
+  --muted-color: #f0f0f0;
+  --grey-color: #c9c9c9;
+}
